@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 350px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Welcome Page Styling */
+.welcome-box {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+a.logout-btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 15px;
+     margin-left: 555px;
+   
+}
+
+a.logout-btn:hover {
+    background-color: #b52a35;
+}
